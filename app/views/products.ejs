@@ -1,0 +1,39 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+
+<main class="container">
+  <div class="jumbotron">
+    <h3 class="display-4">Welcome to <%= title %> page</h3>
+    <h1>My Projects</h1>
+    <div class="project-card">
+      <h2>Project 1: Java Test</h2>
+      <img src="/img/project1.png" alt="Project 1 Image" class="project-image" style="height: 200px">
+      <p><strong>Description: A Java application that simulates a test about Java related questions with multiple choice questions</strong> .</p>
+      <p><strong>Role:</strong>Programming with Java</p>
+      <p><strong>Outcome:</strong>A Java test with 10 Java related questions.</p>
+    </div>
+
+    <div class="project-card">
+      <h2>Project 2: Canvas Game</h2>
+      <img src="/img/project2.png" alt="Project 2 Image" class="project-image" style="height: 300px">
+      <p><strong>Description:</strong> A Javascript canvas game where the player must catch the goblin to gain points. The player moves with arrows key and every time the goblin is caught, it randomly changes position</p>
+      <p><strong>Role:</strong>Programming with vanilla Javascript and HTML</html> </p>
+      <p><strong>Outcome:</strong> Simple Game Website</p>
+    </div>
+
+    <div class="project-card">
+      <h2>Project 3: Banking Application</h2>
+      <img src="/img/project3.png" alt="Project 3 Image" class="project-image" style="height: 300px">
+      <p><strong>Description:</strong> A C# Application that a user can create their own bank account and make a savings, checking, or visa account. They will be able to withdraw and deposit from their accounts </p>
+      <p><strong>Role:</strong>Programming with only C#</p>
+      <p><strong>Outcome:</strong>Simple Banking Application</p>
+    </div>
+  </div>
+  </div>
+</main>
+
+<!--bottom nav-->
+<!--script section-->
+<%- include ('partials/bottom_nav.ejs') %>
+<%- include ('partials/footer.ejs') %>

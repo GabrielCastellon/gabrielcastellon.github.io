@@ -1,0 +1,31 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+<main class="container">
+  <div class="jumbotron">
+    <h3 class="display-4 main-heading">Welcome to <%= title %> page</h3>
+    <h1 class="main-heading">My Services</h1>
+
+    <div class="service">
+      <img src="/img/programming.png" alt="General Programming" style="height: 300px">
+      <h2>General Programming</h2>
+      <p>Experience with a wide range of programming services tailored to your needs with different programming languages.</p>
+    </div>
+
+    <div class="service">
+      <img src="/img/web-development.jpg" alt="Web Development" style="height: 300px">
+      <h2>Web Development</h2>
+      <p>Create attractive and functional websites for your business with knowledge of the MEAN stack.</p>
+    </div>
+
+    <div class="service">
+      <img src="/img/database.png" alt="Database" style="height: 300px">
+      <h2>Database Development</h2>
+      <p>Build database applications that work seamlessly on applications.</p>
+    </div>
+  </div>
+</main>
+<!--bottom nav-->
+<!--script section-->
+<%- include ('partials/bottom_nav.ejs') %>
+<%- include ('partials/footer.ejs') %>

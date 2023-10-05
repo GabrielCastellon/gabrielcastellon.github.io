@@ -1,0 +1,32 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+<link rel="stylesheet" href="/public/stylesheets/about.css">
+<main class="container">
+  <div class="jumbotron">
+    <h3 class="display-4">Welcome to <%= title %> page</h3>
+    
+    <h1>Name: Gabriel </h1>
+    <p>Hello! I am a software developer and a student. I am passionate about creating efficient, reliable, and user-friendly software solutions. Currently, I am balancing my time between pursuing my education and honing my skills in the field of software development.</p>
+    <img src="/img/portrait.jpg" alt="Portrait" style="height: 300px">
+
+    <h2>Education</h2>
+    <p>I am currently enrolled as a student, pursuing diploma at Centennial College. I am focusing on Software engineering and continually expanding my knowledge in the realm of computer science</p>
+    
+    <h2>Skills</h2>
+    <ul>
+      <li>Programming Languages: Java, Python, C#, Javascript</li>
+      <li>Frameworks and Technologies: Express, Node</li>
+      <li>Database Systems: Oracle, MongoDB</li>
+    
+    </ul>
+    <h6>Resume Download:</h6>
+    <a href="/files/Resume.pdf" download>
+      <img src="/img/resumeicon.jpg" alt="Resume" style="height: 100px">
+    </a>
+    </div>
+</main>
+<!--bottom nav-->   
+<!--script section-->
+<%- include ('partials/bottom_nav.ejs') %>
+<%- include ('partials/footer.ejs') %>

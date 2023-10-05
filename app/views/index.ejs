@@ -1,0 +1,26 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+<main class="container">
+    <div class="jumbotron">
+        <div class="body">
+            <h3 class="display-4">Welcome to <%= title %> page</h3>
+            <h1>I Have A Creative Design</h1>
+
+            <p>I'm Gabriel, a student and a software developer. Ive been developing programs for little over a year</p>
+            <img src="/img/homepage.png" class="img-fluid" alt="Homepage Image" style="width: 300px; height: 200px">
+            <a href="/about" class="btn btn-primary about-btn">About Me!</a>
+            <a href="/products" class="btn btn-secondary portfolio-btn">View my portfolio!</a>            <div class="skills">
+                <p class="skill-item">Web Developer</p>
+                <p class="skill-item">Programming Efficiency</p>
+                <p class="skill-item">Database Management</p>
+            </div>
+        </div>
+    </div>
+</main>
+    <!--bottom nav-->
+   
+   
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>

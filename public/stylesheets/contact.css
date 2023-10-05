@@ -1,0 +1,48 @@
+/* contact.css, Gabriel Castellon, 301283945, Oct 4, 2023 */
+.contact-panel {
+  margin-top: 20px;
+}
+
+.contact-panel form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-panel .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-panel .form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.contact-panel .form-group input,
+.contact-panel .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.contact-panel .form-group textarea {
+  height: 100px;
+}
+
+.contact-panel button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.contact-panel button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Additional styles for jumbotron content */
+.jumbotron h1 {
+  color: #007BFF; /* Change header color */
+}
+
+.jumbotron h3 {
+  font-size: 24px; /* Change font size */
+  color: #333; /* Change color */
+}

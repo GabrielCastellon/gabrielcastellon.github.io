@@ -1,0 +1,30 @@
+/* products.css, Gabriel Castellon, 301283945, Oct 4, 2023 */
+.project-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.project-card .project-image {
+  height: auto;
+  border: 1px solid #ccc;
+}
+.project-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.project-card p {
+  margin-bottom: 10px;
+}
+
+.project-card strong {
+  font-weight: bold;
+}
+
+.jumbotron h1 {
+  color: #007BFF; /* Change header color */
+}
+
+.jumbotron h3 {
+  font-size: 24px; /* Change font size */
+  color: #333; /* Change color */
+}

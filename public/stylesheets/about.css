@@ -1,0 +1,41 @@
+/* about.css, Gabriel Castellon, 301283945, Oct 4, 2023 */
+.jumbotron {
+  background-color: #f0f0f0; /* Change background color */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.jumbotron h3 {
+  color: #555; /* Change header color */
+}
+
+.jumbotron p {
+  font-size: 16px; /* Change font size */
+}
+
+.jumbotron img {
+  border-radius: 50%; /* Make the image circular */
+}
+
+/* Style the skills list */
+.jumbotron ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.jumbotron li {
+  font-size: 16px;
+}
+
+/* Style the resume download link */
+.jumbotron a {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Style the resume icon */
+.jumbotron a img {
+  border: 2px solid #555; /* Add border */
+  border-radius: 10px;
+}
